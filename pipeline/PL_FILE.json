@@ -59,6 +59,7 @@
 			},
 			{
 				"name": "Get list of files",
+				"description": "it is used to get list of tables",
 				"type": "GetMetadata",
 				"dependsOn": [],
 				"policy": {
