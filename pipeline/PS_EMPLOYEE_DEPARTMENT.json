@@ -1,0 +1,39 @@
+{
+	"name": "PS_EMPLOYEE_DEPARTMENT",
+	"properties": {
+		"activities": [
+			{
+				"name": "READ_EMPLOYEE_TABLE",
+				"type": "Lookup",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "AzureSqlSource",
+						"queryTimeout": "02:00:00",
+						"partitionOption": "None"
+					},
+					"dataset": {
+						"referenceName": "DS_SQL_SERVER",
+						"type": "DatasetReference",
+						"parameters": {
+							"schema": "dbju",
+							"table_name": "adsacasd"
+						}
+					},
+					"firstRowOnly": false
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2026-10-14T18:49:01Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

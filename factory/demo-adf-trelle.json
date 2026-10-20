@@ -1,0 +1,21 @@
+{
+	"name": "demo-adf-trelle",
+	"properties": {
+		"globalParameters": {
+			"email_recepient": {
+				"type": "string",
+				"value": "aminashibilak@gmail.com"
+			}
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "indiasouthcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "25127e7e-f3d5-41e5-92e7-d2cf16283207",
+		"tenantId": "b1f5ba12-d3f8-44c8-b5ee-f64c534930d6"
+	}
+}
