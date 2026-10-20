@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "demo-adf-trelle"
+		},
+		"LS_SQL_SERVER_password": {
+			"value": ""
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://demosqldata.dfs.core.windows.net/"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_server": {
+			"value": "demo-data-sql.database.windows.net"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_database": {
+			"value": "demo-sql-db"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_userName": {
+			"value": "sqldata"
+		},
+		"TGR_EVENT_1_properties_PL_FILE_EVENT_parameters_file_name": {
+			"value": "@triggerBody().fileName"
+		},
+		"TGR_EVENT_1_properties_typeProperties_scope": {
+			"value": "/subscriptions/b99705f7-a34c-416e-8490-b3925035cc5a/resourceGroups/test/providers/Microsoft.Storage/storageAccounts/demosqldata"
+		},
+		"TGR_EVENT_SIMPLE_properties_typeProperties_scope": {
+			"value": "/subscriptions/b99705f7-a34c-416e-8490-b3925035cc5a/resourceGroups/test/providers/Microsoft.Storage/storageAccounts/demosqldata"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
