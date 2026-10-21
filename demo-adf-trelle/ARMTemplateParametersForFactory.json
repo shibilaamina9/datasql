@@ -5,9 +5,6 @@
 		"factoryName": {
 			"value": "demo-adf-trelle"
 		},
-		"LS_SQL_SERVER_password": {
-			"value": ""
-		},
 		"LS_ADLS_properties_typeProperties_url": {
 			"value": "https://demosqldata.dfs.core.windows.net/"
 		},
@@ -28,6 +25,9 @@
 		},
 		"TGR_EVENT_SIMPLE_properties_typeProperties_scope": {
 			"value": "/subscriptions/b99705f7-a34c-416e-8490-b3925035cc5a/resourceGroups/test/providers/Microsoft.Storage/storageAccounts/demosqldata"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://demo-data.vault.azure.net/"
 		}
 	}
 }
